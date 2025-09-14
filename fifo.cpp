@@ -1,5 +1,4 @@
-#include <iostream>
-#include <fstream>
+#include <bits/stdc++.h>
 #include <iomanip>
 using namespace std;
 
@@ -40,7 +39,6 @@ int main() {
         int page = pages[i];
         bool found = false;
 
-        
         for (int j = 0; j < framesCount; j++) {
             if (frames[j] == page) {
                 found = true;
@@ -55,7 +53,6 @@ int main() {
             nextToReplace = (nextToReplace + 1) % framesCount;
             pageFaults++;
         }
-
         
         cout << left << setw(8) << page;
         for (int j = 0; j < framesCount; j++) {

@@ -1,5 +1,4 @@
-#include <iostream>
-#include <fstream>
+#include <bits/stdc++.h>
 #include <iomanip>
 using namespace std;
 
